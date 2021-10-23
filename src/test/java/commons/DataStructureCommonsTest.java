@@ -24,6 +24,7 @@ public class DataStructureCommonsTest
 		//when
 		DataStructureCommons.add(employees, emp1,0);
 
+
 		//then
 		assertThat(employees.size()).isEqualTo(1);
 		assertThat(employees.get( 0 )).isEqualTo(emp1);
